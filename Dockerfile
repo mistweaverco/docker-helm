@@ -10,5 +10,3 @@ RUN apk add --no-cache --virtual build-dependencies curl && \
     rm -rf /tmp/helm && \
     apk del build-dependencies
 
-ENTRYPOINT ["/usr/bin/helm"]
-
